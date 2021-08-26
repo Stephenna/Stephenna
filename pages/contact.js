@@ -16,7 +16,7 @@ function ContactForm() {
         <Navbar />
         <Spots/>
         <div className=" contact-form min-h-full flex items-center justify-center flex justify-content align-items: center w-screen h-screen">
-            <div className="bg-white w-4/5 p-4 rounded-md flex flex-row items-center justify-around shadow-md hover:scale-105 transition transform duration-500 cursor-pointer">
+            <div className="bg-white w-1/3 p-4 rounded-md flex flex-row items-center justify-around shadow-md hover:scale-105 transition transform duration-500 cursor-pointer">
                 <form  className="w-full max-w-sm" onSubmit={handleSubmit}>
                 <p className=" block text-gray-700  text-2xl text-center m-5 font-light">Shoot me an email!</p>
                     <div className="md:flex md:items-center mb-6">
