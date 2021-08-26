@@ -1,10 +1,7 @@
 import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 import Navbar from './components/Navbar';
-import Spots from './components/layout'
-import Link from 'next/link'
-import { AiFillGithub } from 'react-icons/fa';
-import { FaLinkedin } from 'react-icons/fa';
+import Spots from './components/layout';
 import Return from './return';
 function ContactForm() {
   const [state, handleSubmit] = useForm("contactForm");
