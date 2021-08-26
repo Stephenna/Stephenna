@@ -27,7 +27,7 @@ export default function Post({post}) {
                     bg-purple-500 text-white font-bold py-2 px-4 rounded-full mr-4"
                     >Github</button>
                 </Link>
-                <Link href={post.frontmatter.demo}>
+                <Link href={post.frontmatter.demo} passHref>
                     <button className="bg-white border-2 hover:border-purple-500 hover:text-purple-500
                     hover:bg-white
                     bg-purple-500 text-white font-bold py-2 px-4 rounded-full"> Demo </button>
