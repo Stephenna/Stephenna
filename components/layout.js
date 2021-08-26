@@ -1,7 +1,7 @@
-import Particles from "react-particles-js";
 
 
-// import Particles from "tsparticles";
+import Particles from "react-tsparticles";
+
 
 const Spots = () => {
   return (
@@ -37,11 +37,19 @@ const Spots = () => {
               enable: false
             },
             move: {
+              direction: "none",
+              enable: true,
+              outMode: "bounce",
               random: true,
               speed: 1,
-              direction: "bottom",
-              out_mode: "out"
-            }
+              straight: false,
+            },
+            // move: {
+            //   random: true,
+            //   speed: 1,
+            //   direction: "bottom",
+            //   out_mode: "out"
+            // }
           },
           interactivity: {
             events: {
