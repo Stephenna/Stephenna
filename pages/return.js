@@ -1,5 +1,5 @@
-import Navbar from "./components/Navbar"
-import Spots from "./components/layout"
+import Navbar from "./../components/Navbar"
+import Spots from "./../components/layout"
 import Link from "next/link"
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'

@@ -1,4 +1,6 @@
-import Particles from "react-tsparticles";
+import Particles from "react-particles-js";
+
+
 
 
 const Spots = () => {
@@ -56,7 +58,7 @@ const Spots = () => {
               bubble: {
                 distance: 50,
                 duration: 2,
-                size: 9,
+                size: 7,
                 opacity: 9
               },
               repulse: {

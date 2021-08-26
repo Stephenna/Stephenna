@@ -1,5 +1,5 @@
-import Navbar from './components/Navbar'
-import Spots from './components/layout'
+import Navbar from './../components/Navbar'
+import Spots from './../components/layout'
 
 import resume from '../public/resume.png'
 import Image from 'next/image'

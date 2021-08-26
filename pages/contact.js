@@ -1,8 +1,11 @@
 import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
-import Navbar from './components/Navbar';
-import Spots from './components/layout';
+import Navbar from './../components/Navbar';
+import Spots from './../components/layout';
 import Return from './return';
+
+
+
 function ContactForm() {
   const [state, handleSubmit] = useForm("contactForm");
   if (state.succeeded) {

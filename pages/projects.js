@@ -1,10 +1,10 @@
 import fs from "fs"
 import path from 'path'
 import matter from "gray-matter"
-import Post from "./components/Post"
-import Navbar from './components/Navbar'
+import Post from "./../components/Post"
+import Navbar from './../components/Navbar'
 import Head from 'next/head'
-import Spots from "./components/layout"
+import Spots from "./../components/layout"
 
 export default function Home({posts}) {
     console.log(posts)
