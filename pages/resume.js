@@ -8,9 +8,9 @@ const Resume = () => {
     return( 
         <div>
             <Navbar />
-            <div className="resume-body  flex items-center justify-center ">
+            <div className="resume-body  flex items-center justify-center bg-none">
             <Spots/>
-                <div className=" w-1/2 h-full p-4 rounded-md flex flex-col items-center justify-center shadow-md hover:scale-105 transition transform duration-500 cursor-pointer">
+                <div className=" w-1/2 h-full p-4 rounded-md flex flex-col items-center justify-center  hover:scale-105 transition transform duration-500 cursor-pointer">
                        
                 <Image src={resume}  alt="img"/>
                 </div>
