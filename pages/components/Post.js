@@ -20,7 +20,7 @@ export default function Post({post}) {
                 <hr />
             </div>
             <div className="button m-1">
-                <Link href={post.frontmatter.button}>
+                <Link href={post.frontmatter.button} passHref>
                     <button className="
                     bg-white border-2 hover:border-purple-500 hover:text-purple-500
                     hover:bg-white
