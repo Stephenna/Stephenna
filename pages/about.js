@@ -16,7 +16,7 @@ const about = () => {
                     <div className="about-text text-left text-gray-700 ">
                         <h1>Hi There! </h1>
                         <p> 
-                        I&apos;m Stephenna, a self-taught front-end junior developer from Atlanta. My preferred language is Javascript. I&apos;ve recently started exploring my interest in React and backend tools such as Sanity.io. I&apos;ve my eye on blockchain development. I have a passion for growth and development. I cant wait to see what future tech has to offer!   
+                        My name is Stephenna. I'm a boot camp graduate but do consider myself to be a self-taught programmer. I am primarily focused on JavaScript front-end technologies, such as React. I've also been developing my backend skills. I am passionate about delivering quality content. 
                         </p>
                     </div>
                

@@ -27,6 +27,9 @@ const Navbar = () => {
             
             </div>
             <span className="nav-links">
+              {/* <Link href="/about">
+              <a className='transition duration-500 ease-in-out  hover:text-yellow-400 transform hover:-translate-y-1 hover:scale-110 '>ABOUT</a>
+              </Link> */}
               <Link href="/projects">
               <a className='transition duration-500 ease-in-out  hover:text-yellow-400 transform hover:-translate-y-1 hover:scale-110 '>PROJECTS</a>
               </Link>
