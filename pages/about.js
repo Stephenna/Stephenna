@@ -15,8 +15,9 @@ const about = () => {
                 <Spots />
                     <div className="about-text text-left text-gray-700 ">
                         <h1>Hi There! </h1>
-                        <p> 
-                        My name is Stephenna. I'm a boot camp graduate but do consider myself to be a self-taught programmer. I am primarily focused on JavaScript front-end technologies, such as React. I've also been developing my backend skills. I am passionate about delivering quality content. 
+                        <p>
+
+                        My name is Stephenna. I&apos;m a boot camp graduate but do consider myself to be a self-taught programmer. I am primarily focused on JavaScript front-end technologies, such as React. I&apos;ve also been developing my backend skills. I am passionate about delivering quality content.   
                         </p>
                     </div>
                
